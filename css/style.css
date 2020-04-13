@@ -1,0 +1,202 @@
+body {
+  background-color: #ecf0f1;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.bck_page{
+  float: right;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 18px;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  position: fixed;
+  z-index: 1000;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #e74c3c;
+}
+
+.p_clr{
+  color: #2f3542;
+  font-family: verdana;
+  font-weight: bold;
+}
+.main {
+  margin-top: 0px;
+  position: absolute;
+  padding: 0,0,0,0;
+  width: 100%;
+  height: 100%;
+  background-color: #ecf0f1;
+}
+
+.header {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+  font-family:  "Segoe UI";
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  background-color: #ecf0f1;
+  /*background-image: linear-gradient(#ff7f50, #ff6348);*/
+}
+
+.header_main{
+  font-family:  "Segoe UI";
+  color: #ecf0f1;
+  height:10%;
+  width: 100%;
+  position: fixed;
+  /*background-color: #16a085;*/
+  background-image: linear-gradient(#ff7f50, #ff6348);
+}
+
+
+.header_cart{
+  font-family: verdana;
+  color: #ecf0f1;
+  height:50px;
+  width: 100%;
+  position: fixed;
+  /*background-color: #16a085;*/
+  background-image: linear-gradient(#ff7f50, #ff6348);
+}
+.block1 {
+  color: black;
+  height:5%;
+}
+
+.block1_main {
+  color: black;
+  height:10%;
+}
+.block2 {
+  color: black;
+  margin-top:20%;
+
+}
+.slct_city_head {
+  font-family: verdana;
+  font-size: 40px;
+
+}
+.slct_city_body {
+  font-size: 18px;
+  font-family: "Segoe UI";
+  font-color:#2c3e50;
+}
+
+.button {
+  background-color:#c0392b;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 80px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  width: 100%;
+}
+
+.buttonSuccess {
+  background-color:#27ae60;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 80px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+.buttonCancel {
+  background-color:#c0392b;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 80px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+.slct_box{
+  margin: 5px;
+  font-family:verdana;
+  font-size:18px;
+  padding: 5px;
+}
+
+.slct_prod{
+  width: 100%;
+  position: absolute;
+  padding: 5px;
+  margin-bottom: 10%;
+
+}
+.pic_prod{
+  padding: 10px;
+  width:50%;
+  height: 60%;
+  display: inline-block;
+
+  /*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19);*/
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
