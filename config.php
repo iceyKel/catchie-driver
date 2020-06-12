@@ -1,8 +1,8 @@
 <?php
-$servername = "den1.mysql2.gear.host";
-$username = "catchiecartdb3";
-$password = "Ku5M-A9z0j9_";
-$dbase= "catchiecartdb3";
+$servername = "den1.mysql3.gear.host";
+$username = "catchiecartdb";
+$password = "Qy2w??YKh8qD";
+$dbase= "catchiecartdb";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password,$dbase);
